@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: Asset_Model_Modern_Bed
+  m_EditorClassIdentifier: 
+  title: Modern_Bed
+  description: 
+  category: 3
+  author: 
+  icon: {fileID: 21300000, guid: e36ca549dee848443ab91336fa657c67, type: 3}
+  model: {fileID: 6930459607371444843, guid: 5cf49027a69d48141b6b52f7c1fd8bb9, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: Asset_Model_Historical_Lamp
+  m_EditorClassIdentifier: 
+  title: Old_Lamp
+  description: 
+  category: 2
+  author: 
+  icon: {fileID: 21300000, guid: 6f5db8f7acb073f4cbca1b521b2b3fc6, type: 3}
+  model: {fileID: 132651967327814783, guid: ca50ddfecac21b9429d985d1a30b7245, type: 3}

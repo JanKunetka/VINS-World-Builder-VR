@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: Asset_Model_Modern_Drawers
+  m_EditorClassIdentifier: 
+  title: Modern_Drawers
+  description: 
+  category: 3
+  author: 
+  icon: {fileID: 21300000, guid: c8ba8197d6274234f8bb55ff436bd806, type: 3}
+  model: {fileID: 6975303970793907532, guid: 58a6bfb819048fc4390c3f16e18a2521, type: 3}

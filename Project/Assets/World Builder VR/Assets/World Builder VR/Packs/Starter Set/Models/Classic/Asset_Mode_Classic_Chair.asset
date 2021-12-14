@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: Asset_Mode_Classic_Chair
+  m_EditorClassIdentifier: 
+  title: Classic_Chair
+  description: 
+  category: 1
+  author: 
+  icon: {fileID: 21300000, guid: 832b0b38f4d733d44bc302dcf96a2ab6, type: 3}
+  model: {fileID: 341432200184235309, guid: 8541b5a80e73d364888b4bcc264f389f, type: 3}

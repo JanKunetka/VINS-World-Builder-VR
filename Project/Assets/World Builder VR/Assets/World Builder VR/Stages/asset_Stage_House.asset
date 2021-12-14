@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6525733007b4e50b1e35e6aeeafff27, type: 3}
+  m_Name: asset_Stage_House
+  m_EditorClassIdentifier: 
+  title: House1
+  icon: {fileID: 21300000, guid: 02b7ffaf7d088de4189441e6a1dc2357, type: 3}
+  author: "Barbora Haj\xED\u010Dkov\xE1"
+  stage: {fileID: 3134943178950033891, guid: 003875f5bc2475645a5859b1fb525c42, type: 3}
+  startingPosition: {x: 2.6, y: -2.1, z: -0.5}
+  startingRotation: {x: 0, y: -90, z: 0}

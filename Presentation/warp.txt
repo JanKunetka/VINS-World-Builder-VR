@@ -1,0 +1,6 @@
+1. Opening Slide
+2. The goal of the project
+3. What Technology was used
+4. Showcase Video
+5. Project's Future
+6. Where to get the project

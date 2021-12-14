@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: Asset_Model_Historical_Dresser
+  m_EditorClassIdentifier: 
+  title: Old_Dresser
+  description: 
+  category: 2
+  author: 
+  icon: {fileID: 21300000, guid: 665b8b4c8d278cd45b3d133cea28de2c, type: 3}
+  model: {fileID: 8040543122223045398, guid: 456c6c409641acf49a1652e0e27fa776, type: 3}

@@ -1,0 +1,30 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=045352ac_002D98c7_002D4e5b_002Db14f_002D963344374adc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="delete_created_pack #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.delete_created_pack&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=271136fe_002Dd38f_002D499c_002Dbd9e_002D256a109edfe1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="delete_created_pack" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.delete_created_pack&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f2aaf27_002D2344_002D4979_002Dbb62_002De0d107c0910d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="create_new_pack_successfully" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.create_new_pack_successfully&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.create_new_pack_and_load_data_successfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=df67a47b_002Da3bc_002D4ee5_002Dbbc8_002Dc759e076c74e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="create_new_pack_successfully #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.create_new_pack_successfully&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.delete_created_pack&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fce79e3c_002D3af8_002D4787_002Da645_002Da3babcd24139/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="delete_created_pack #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.delete_created_pack&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.create_new_pack_successfully&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5480BEC3-BB2F-3DCB-EE4D-094E367E4E4B::.NETFramework,Version=v4.7.1::test_Data_Save_And_Load.create_new_pack_and_load_data_successfully&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

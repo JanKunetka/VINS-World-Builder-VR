@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: Asset_Model_Kitchen_PaperTowel
+  m_EditorClassIdentifier: 
+  title: Paper Towel
+  description: 
+  category: 4
+  author: 
+  icon: {fileID: 21300000, guid: 7b78a046c6399f64dae14806f86dff0a, type: 3}
+  model: {fileID: 1085725703074761656, guid: f012f82147815e14d90d0059d7434585, type: 3}

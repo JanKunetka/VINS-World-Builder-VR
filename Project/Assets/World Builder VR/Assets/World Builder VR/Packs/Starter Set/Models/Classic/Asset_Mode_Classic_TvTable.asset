@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: Asset_Mode_Classic_TvTable
+  m_EditorClassIdentifier: 
+  title: Classic_TvTable
+  description: 
+  category: 1
+  author: 
+  icon: {fileID: 21300000, guid: 0483734078df73c488646cd715957503, type: 3}
+  model: {fileID: 7278519552272483715, guid: d2bb06d101c26c24fb9e76eacdb879c6, type: 3}

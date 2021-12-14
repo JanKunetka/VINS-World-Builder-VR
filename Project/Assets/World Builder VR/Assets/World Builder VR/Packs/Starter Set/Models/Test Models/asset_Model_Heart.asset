@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c37995113d40bfae5bde8aaf106a1d, type: 3}
+  m_Name: asset_Model_Heart
+  m_EditorClassIdentifier: 
+  title: Heart 1
+  description: That is certainly a heart...
+  category: 0
+  author: Linki
+  icon: {fileID: 21300000, guid: 2964f56d56c56bf48bb842306d0bace5, type: 3}
+  model: {fileID: 8867953735922312105, guid: ed2a124c1e21a8840b0b624a62710e4d, type: 3}

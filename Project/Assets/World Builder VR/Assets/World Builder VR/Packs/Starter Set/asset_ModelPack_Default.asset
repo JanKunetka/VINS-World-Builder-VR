@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc44eb8b417452dbd9e1771a21a9488, type: 3}
+  m_Name: asset_ModelPack_Default
+  m_EditorClassIdentifier: 
+  title: Starter Set
+  icon: {fileID: 21300000, guid: 02b7ffaf7d088de4189441e6a1dc2357, type: 3}
+  author: "Barbora Haj\xED\u010Dkov\xE1"
+  description: A pack containing some starting models to help you build your world.
+  models:
+  - {fileID: 11400000, guid: 0263ddb99bccec5479d2482b1b709c7e, type: 2}
+  - {fileID: 11400000, guid: eb88685afc8f69f47b8ff507a4f2c337, type: 2}
+  - {fileID: 11400000, guid: e4e6c40481b65b34d979b0c7f2788be7, type: 2}
+  - {fileID: 11400000, guid: dcbcc2a58212ff54583495fef3046a81, type: 2}
+  - {fileID: 11400000, guid: c78dac0c3a2b55e4b91b1faade0eedbd, type: 2}
+  - {fileID: 11400000, guid: 3a9a9e4859d0fd644b6acef05234c889, type: 2}
+  - {fileID: 11400000, guid: abffe45f089d4f64c81bdb8e6de9c180, type: 2}
+  - {fileID: 11400000, guid: 03c9a1213899382458024095aead5abe, type: 2}
+  - {fileID: 11400000, guid: 706f75930272bfb4790908857202a65c, type: 2}
+  - {fileID: 11400000, guid: 5fe515d6e4fd4e54baa8dc0e3ded11b1, type: 2}
+  - {fileID: 11400000, guid: e4b69487570252845936b1ff7e65555d, type: 2}
+  - {fileID: 11400000, guid: 02c2451f3907efd4babb3d4af4aaaf21, type: 2}
+  - {fileID: 11400000, guid: fef6120a815a82c4398829c967b3a2ff, type: 2}
+  - {fileID: 11400000, guid: 129c14e5afe0b8140acf991be42af99a, type: 2}
+  - {fileID: 11400000, guid: 16e0697943c7e464095949d80804ea2e, type: 2}
+  - {fileID: 11400000, guid: 2288e6bb80dab5d449e1ab8f7f18ef7a, type: 2}
+  - {fileID: 11400000, guid: 9ce574db8ec4002438dac89e05a3d1f1, type: 2}
+  - {fileID: 11400000, guid: f8b0c432de5e3054cb7134871f6aa53a, type: 2}
+  - {fileID: 11400000, guid: e337ead85db348440b67583c89779fc5, type: 2}
+  - {fileID: 11400000, guid: 6b4ca679ebd18eb46b91ceaec678ba40, type: 2}
+  - {fileID: 11400000, guid: c7b0a3bcd9769164c8b4a3203094abae, type: 2}
+  - {fileID: 11400000, guid: 194fb6dd96499d54a9f0063166ffb7d9, type: 2}
+  - {fileID: 11400000, guid: f1f25a632ddb09d42a6bb6e58503cca1, type: 2}
+  - {fileID: 11400000, guid: 462539aa3d8053d42a0877083cee1e86, type: 2}
+  - {fileID: 11400000, guid: 90bdf294b0a8cd24a8a640e2ee3b876d, type: 2}
+  - {fileID: 11400000, guid: eeca960f6f9e6864697f8897c19421a4, type: 2}
+  - {fileID: 11400000, guid: 4fb25700c91e2584186827c714efaa05, type: 2}
+  - {fileID: 11400000, guid: a4ca3d0cf0e4a1a4492734754e0bb3d6, type: 2}
+  - {fileID: 11400000, guid: 119f4daaab3f7ae4ca77ed7dd1cec10f, type: 2}
+  - {fileID: 11400000, guid: 4566e80510445db4f89f85840f9879e4, type: 2}
+  - {fileID: 11400000, guid: 85bedab52f2ee0b4b99221066038f9dd, type: 2}
+  - {fileID: 11400000, guid: 54bce0511124671499b2352e7687503d, type: 2}
+  - {fileID: 11400000, guid: b278bf1e4a13ee141a0f81346a092654, type: 2}
+  - {fileID: 11400000, guid: 8b432e400d27480479b599bf06790787, type: 2}
+  - {fileID: 11400000, guid: 2df1d9fb4ad50284a8ceeed32100b42c, type: 2}
+  - {fileID: 11400000, guid: 79856835f01592f4582db5f7c6a80b3b, type: 2}
+  - {fileID: 11400000, guid: 6488d59e6b7e0c54180840446cb1ba3a, type: 2}
+  - {fileID: 11400000, guid: dc7339a95de64b449bd67aa633405531, type: 2}
+  - {fileID: 11400000, guid: 0db57a366c746b342aac05c583a99b0e, type: 2}
+  - {fileID: 11400000, guid: 8d735ea93fe551f408d8c79782871ff1, type: 2}
+  - {fileID: 11400000, guid: 44cb18cd689970e44968600687fdf7c6, type: 2}
+  - {fileID: 11400000, guid: b1a4eb13506c83d4fa87acfcd3c2e45b, type: 2}
+  - {fileID: 11400000, guid: e6ef8420669c5664e86f5e90c4e32f0c, type: 2}
+  - {fileID: 11400000, guid: 97f09c9ef04c50f4abdd40c7606d9110, type: 2}
+  - {fileID: 11400000, guid: 942a12598cb3d9f4a9d5263d4c08a88d, type: 2}
+  - {fileID: 11400000, guid: 3c7cccd95e7d09c4ea6b62d60ea2bda1, type: 2}
+  - {fileID: 11400000, guid: 8ef880d126583ae41a1cf9584ae70240, type: 2}
+  - {fileID: 11400000, guid: 9c73e8e780313524d8488b55236a2022, type: 2}
+  - {fileID: 11400000, guid: 4a9734e0e8971df49beb00c523b9696f, type: 2}
