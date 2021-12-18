@@ -1574,41 +1574,25 @@ MonoBehaviour:
   m_PositionInput:
     m_UseReference: 0
     m_Action:
-      m_Name: Position
+      m_Name: 
       m_Type: 0
-      m_ExpectedControlType: Vector3
-      m_Id: ee29b03d-35c4-46eb-926f-3207e29ab1c3
+      m_ExpectedControlType: 
+      m_Id: 
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: 096432cc-1850-4995-967c-516ae9b89bd5
-        m_Path: <XRHMD>/centerEyePosition
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Position
-        m_Flags: 0
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_RotationInput:
     m_UseReference: 0
     m_Action:
-      m_Name: Rotation
+      m_Name: 
       m_Type: 0
-      m_ExpectedControlType: Quaternion
-      m_Id: 50704ae2-529a-4c1b-892b-84f8e74b66e6
+      m_ExpectedControlType: 
+      m_Id: 
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: 8da48d29-beae-4100-83b4-38304c712b37
-        m_Path: <XRHMD>/centerEyeRotation
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Rotation
-        m_Flags: 0
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
@@ -2640,6 +2624,30 @@ PrefabInstance:
     - target: {fileID: 7779664420566205981, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7779664420695114849, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7779664420695114849, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
+      propertyPath: m_BehaviorName
+      value: My Behavior
+      objectReference: {fileID: 0}
+    - target: {fileID: 7779664420695114849, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7779664420695114849, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7779664420695114849, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSize.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7779664420695114849, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
+      propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.data[0]
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7889715413191227933, guid: c3895d8f1343ff245a58721e70c784ed, type: 3}
       propertyPath: m_AnchorMax.y

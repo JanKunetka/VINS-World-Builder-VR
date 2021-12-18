@@ -1,23 +1,25 @@
 ﻿using BoubakProductions.Core;
-using UnityEngine;
 using WorldBuilderVR.Core;
 using WorldBuilderVR.Editors.Models;
 using WorldBuilderVR.Editors.Worlds;
 using WorldBuilderVR.Systems.WorldPlacer;
 using WorldBuilderVR.Systems.WorldPlacer.ObjectSilhouette.TransformOverseer;
 using WorldBuilderVR.Ui.Catalog;
+using WorldBuilderVR.User;
+using UnityEngine;
 
 namespace WorldBuilderVR.Editors.Core
 {
     /// <summary>
-    /// Works like a bridge between the game and <see cref="EditModeOverseer"/>.
+    /// Initializes the Edit Mode Scene and assigns properties to the <see cref="EditModeOverseer"/>.
     /// </summary>
     public class EditModeInitializer : MonoSingleton<EditModeInitializer>, IOverseerInitializer
     {
         [SerializeField] private WorldEditorInitializer worldEditorInitializer;
         [SerializeField] private WorldPlacerOverseerInitializer worldPlacerInitializer;
         [SerializeField] private SilhouetteTransformOverseerInitializer transformInitializer;
-        [SerializeField] private CatalogOverseerMono catalogOverseer;        
+        [SerializeField] private CatalogOverseerMono catalogOverseer;
+        [SerializeField] private MenuVisibilityController catalogController;
         
         private EditModeOverseer editor;
         private ModelPackAsset modelPack;
@@ -41,6 +43,8 @@ namespace WorldBuilderVR.Editors.Core
         public void Initialize()
         {
             editor = EditModeOverseer.Instance;
+            
+            catalogController.SwitchMenuStatus();
             
             CatalogItem.OnAssetActivate -= editor.SwitchModeToPlacement;
             CatalogItem.OnAssetActivate += editor.SwitchModeToPlacement;

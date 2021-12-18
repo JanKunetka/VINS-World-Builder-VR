@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleMasters.WorldBuilderVR.Runtime", "DoubleMasters.WorldBuilderVR.Runtime.csproj", "{c044fa03-5e87-e668-81a8-caa65f8077f8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoubakProductions.Runtime", "BoubakProductions.Runtime.csproj", "{e3310adb-bff6-e49c-bb53-d95476d4a6aa}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{c044fa03-5e87-e668-81a8-caa65f8077f8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c044fa03-5e87-e668-81a8-caa65f8077f8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c044fa03-5e87-e668-81a8-caa65f8077f8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{c044fa03-5e87-e668-81a8-caa65f8077f8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{e3310adb-bff6-e49c-bb53-d95476d4a6aa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e3310adb-bff6-e49c-bb53-d95476d4a6aa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e3310adb-bff6-e49c-bb53-d95476d4a6aa}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{e3310adb-bff6-e49c-bb53-d95476d4a6aa}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

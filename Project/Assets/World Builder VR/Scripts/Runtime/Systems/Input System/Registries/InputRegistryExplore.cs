@@ -27,6 +27,8 @@ namespace WorldBuilderVR.InputSystem.Registries
             
             //Right Hand
             sector.OnActivatePlacementMode += EditModeOverseer.Instance.SwitchModeToPlacement;
+            
+            //Teleport Action - disabled, because app does not have any sorts of Options Menu.
             // sector.OnTeleportActivate += teleportOverseer.WhenTeleportActivate;
             // sector.OnTeleportCancel += teleportOverseer.WhenTeleportCancel;
         }
@@ -43,6 +45,8 @@ namespace WorldBuilderVR.InputSystem.Registries
             
             //Right Hand
             sector.OnActivatePlacementMode -= EditModeOverseer.Instance.SwitchModeToPlacement;
+            
+            //Teleport Action - disabled, because app does not have any sorts of Options Menu.
             // sector.OnTeleportActivate -= teleportOverseer.WhenTeleportActivate;
             // sector.OnTeleportCancel -= teleportOverseer.WhenTeleportCancel;
         }

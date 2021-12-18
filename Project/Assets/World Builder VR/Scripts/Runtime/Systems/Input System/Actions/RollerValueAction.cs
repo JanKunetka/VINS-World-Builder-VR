@@ -3,7 +3,7 @@
 namespace WorldBuilderVR.InputSystem
 {
     /// <summary>
-    /// Calculates a value via scrolling.
+    /// Holds a value that is increased/decreased by an input axis.
     /// </summary>
     public class RollerValueAction : MonoBehaviour
     {
