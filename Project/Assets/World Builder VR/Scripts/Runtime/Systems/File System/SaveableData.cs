@@ -3,7 +3,7 @@
 namespace WorldBuilderVR.Systems.ExternalStorage
 {
     /// <summary>
-    /// Contains variables for a saveable data type.
+    /// Contains folder path information for saveable assets for ease of use.
     /// </summary>
     public class SaveableData
     {

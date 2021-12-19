@@ -1,0 +1,63 @@
+﻿@startuml
+
+interface IAssetBase
+{
+    + <<get>> id : string
+    + <<get>> title : string
+    + <<get>> icon : Sprite
+    + <<get>> author : string
+}
+
+class AssetBaseSO extends ScriptableObject
+{
+    + GenerateID(assetIdentifier : string) : void
+}
+
+class ModelPackAsset
+{
+    + <<get>> description : string;
+    + <<get>> models : ModelAsset[];
+    + UpdateModels(newModels : ModelAsset[]) : void
+}
+
+class ModelAsset
+{
+    + <<get>> description : string
+    + <<get>> category : CategoryType
+    + <<get>> model : GameObject
+}
+
+class ModelPackLibrary
+{
+    - modelPacks : IList<ModelPackAsset>
+    
+    + Reload(modelPacks : IList<ModelPackAsset>) : void
+    + GetByID(id : string) : ModelPackAsset
+    
+}
+
+class ModelPackLibraryLoader
+{
+    - modelPacks : ModelPackAsset[]
+}
+
+enum CategoryType 
+{
+    NotCategorized
+    Classic
+    Historical
+    Modern
+    Kitchen
+    Bathroom
+}
+
+AssetBaseSO .|> IAssetBase
+ModelAsset -|> AssetBaseSO
+ModelAsset --> CategoryType
+ModelPackAsset --|> AssetBaseSO
+
+ModelPackAsset --> ModelAsset
+ModelPackLibrary --> ModelPackAsset
+ModelPackLibraryLoader --> ModelPackLibrary
+
+@enduml

@@ -1,0 +1,97 @@
+﻿@startuml
+
+interface IAssetBase
+{
+    + <<get>> id : string
+    + <<get>> title : string
+    + <<get>> icon : Sprite
+    + <<get>> author : string
+}
+
+abstract class AssetBase
+{
+    # GenerateID(assetIdentifier : string) : void
+}
+
+class PlacedObjectInfo
+{
+    + <<get>> position : Vector3
+    + <<get>> rotation : Quaternion
+    + <<get>> scale : Vector3
+}
+
+class WorldAsset 
+{
+    + <<get>> playerPosInfo : PlacedObjectInfo
+    + <<get>> stageID : string
+    + <<get>> modelPackIDs : IList<string>
+    + <<get>> placedAssets : IDictionary<string, IList<PlacedObjectInfo>>
+    
+    + UpdatePlacedAssets(newPlacedObjects : IDictionary<string, IList<PlacedObjectInfo>>) : void
+}
+
+class WorldList
+{
+    - list : IList<WorldAsset>;
+    
+    + Add(world : WorldAsset) : void
+    + Update(index : int, world : WorldAsset) : void
+    + Remove(worldIndex : int) : void
+    + TryFinding(worldName : string, author : string, excludePos : int) : WorldAsset
+    + ReplaceAll(newList : IList<WorldAsset>) : void
+}
+
+class WorldLibrary 
+{
+    - {readonly} worlds : WorldList
+    
+    + ReloadFromExternalStorage() : void
+    + CreateAndAddWorld() : void
+    + UpdateWorld(world : WorldAsset, index : int) : void
+    + DeleteWorld(int worldIndex) : void
+}
+
+class ExternalStorageOverseer
+{
+    + Save(WorldAsset world) : void
+    + LoadAllWorlds() : IList<WorldAsset>
+    + DeleteWorld(world : WorldAsset) : void
+    + DeleteWorld(worldTitle : string) : void
+    
+}
+
+class FileSystem 
+{
+    + {static} SaveWorld(path : string, world : WorldAsset) : void
+    + {static} LoadAllWorlds(path : string) : IList<WorldAsset>
+    + {static} DeleteFile(path : string) : void
+}
+
+class SerializedWorldAsset 
+{
+    - id : string
+    - title : string
+    - icon : SerializedSprite
+    - author : string
+    - playerPosInfo : SerializedPlacedObjectInfo
+    - stageID : string
+    - modelPackIDs : IList<string>
+    - placedAssets : Dictionary<string, IList<SerializedPlacedObjectInfo>>
+    
+    + Deserialize() : WorldAsset
+}
+
+IAssetBase .|> AssetBase
+AssetBase -|> WorldAsset
+WorldAsset -> PlacedObjectInfo
+
+WorldList --> WorldAsset
+WorldLibrary -> WorldList
+WorldLibrary --> ExternalStorageOverseer
+WorldList --> ExternalStorageOverseer
+ExternalStorageOverseer --> FileSystem
+FileSystem --> SerializedWorldAsset
+SerializedWorldAsset --> WorldAsset
+
+
+@enduml

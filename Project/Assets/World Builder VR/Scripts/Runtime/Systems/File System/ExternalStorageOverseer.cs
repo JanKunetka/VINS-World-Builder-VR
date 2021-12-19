@@ -6,7 +6,7 @@ using WorldBuilderVR.Editors.Worlds;
 namespace WorldBuilderVR.Systems.ExternalStorage
 {
     /// <summary>
-    /// Overseers files stored on external storage.
+    /// Prepares data to be saved/loaded from external storage.
     /// </summary>
     public class ExternalStorageOverseer
     {

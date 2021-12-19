@@ -14,6 +14,7 @@ namespace WorldBuilderVR.Editors.Worlds
     {
         private IList<WorldAsset> list;
 
+        #region Constructors
         public WorldList()
         {
             list = new List<WorldAsset>();
@@ -22,6 +23,7 @@ namespace WorldBuilderVR.Editors.Worlds
         {
             list = new List<WorldAsset>(original);
         }
+        #endregion
 
         /// <summary>
         /// Adds a new world to the library.
